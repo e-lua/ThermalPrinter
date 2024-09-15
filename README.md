@@ -152,7 +152,7 @@ This thermal printer runs a local server (8000) to sent invoices, receipts, etc.
   ]
 }
 ```
-![Demo](./assets/invoices.jpg)
+<img src="https://github.com/e-lua/ThermalPrinter/assets/invoice.jpg" width="50" />
 
 
 * **Print kitchen** POST `http://127.0.0.1:8000/print`
@@ -253,4 +253,4 @@ This thermal printer runs a local server (8000) to sent invoices, receipts, etc.
   ]
 }
 ```
-![Demo](./assets/kitchen.jpg)
+<img src="https://github.com/e-lua/ThermalPrinter/assets/kitchen.jpg" width="100" />
