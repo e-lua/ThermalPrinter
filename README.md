@@ -4,19 +4,19 @@ This thermal printer runs a local server (8000) to sent invoices, receipts, etc.
 
 ## Note
 
-* Run [git clone https://github.com/e-lua/ThermalPrinter.git]
-* uvicorn main:app --reload
+* Run `git clone https://github.com/e-lua/ThermalPrinter.git`
+* Command `uvicorn main:app --reload`
 
 ## Test it!
 
-* Open the software [software/main.exe]
-* For end the software [crtl+c]
-* **Get printers** GET [http://127.0.0.1:8000/printers]
-* **Print Invoice** POST [http://127.0.0.1:8000/print]
+* Open the software `software/main.exe`
+* For end the software `crtl+c`
+* **Get printers** GET `http://127.0.0.1:8000/printers`
+* **Print Invoice** POST `http://127.0.0.1:8000/print`
 ```
 {
   "printer_name": "NAME_OF_PRINTER",
-  "printer_width": 48_OR_58,
+  "printer_width": 58_OR_80,
   "sections": []
 }
 ```
@@ -152,12 +152,14 @@ This thermal printer runs a local server (8000) to sent invoices, receipts, etc.
   ]
 }
 ```
+![Demo](./assets/invoices.jpg)
 
-* **Print kitchen** POST [http://127.0.0.1:8000/print]
+
+* **Print kitchen** POST `http://127.0.0.1:8000/print`
 ```
 {
   "printer_name": "NAME_OF_PRINTER",
-  "printer_width": 48_OR_58,
+  "printer_width": 58_OR_80,
   "sections": []
 }
 ```
@@ -251,3 +253,4 @@ This thermal printer runs a local server (8000) to sent invoices, receipts, etc.
   ]
 }
 ```
+![Demo](./assets/kitchen.jpg)
