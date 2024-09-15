@@ -152,7 +152,7 @@ This thermal printer runs a local server (8000) to sent invoices, receipts, etc.
   ]
 }
 ```
-<img src="https://ibb.co/cYKwWmX" width="100" />
+![DemoInvoice](./assets/invoice.jpg)
 
 
 * **Print kitchen** POST `http://127.0.0.1:8000/print`
@@ -253,4 +253,4 @@ This thermal printer runs a local server (8000) to sent invoices, receipts, etc.
   ]
 }
 ```
-<img src="https://postimg.cc/GTLJf2yj" width="100" />
+![DemoKitchen](./assets/kitchen.jpg)
